@@ -5,7 +5,7 @@ clc
 %% Simulate a BEC with SI in a trap
 % Philip Mocz (2018)
 
-% units of hbar = m = 1
+% units hbar = m = 1
 % [i d_t + nabla^2/2 + V_trap - lambda*|psi|^2]  = 0
 
 %% parameters
