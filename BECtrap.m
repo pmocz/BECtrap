@@ -46,7 +46,6 @@ kzlin = ((-Nz/2:Nz/2-1)') * (2*pi/Lz);
 
 [kx, ky, kz] = meshgrid(kxlin, kylin, kzlin);
 kSq = fftshift(kx.^2 + ky.^2 + kz.^2);
-clear klin;
 clear kx;
 clear ky;
 clear kz;
